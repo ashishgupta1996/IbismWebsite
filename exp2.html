@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>first design</title>
+	<link rel="stylesheet" type="text/css" href="all_plugin/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="all_plugin/indexExp2.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style type="text/css">
+	
+
+	</style>
+
+</head>
+<body>
+	<script type="text/javascript" src="all_plugin/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="all_plugin/materialize.min.js"></script>
+    <nav id="header" class="white nbs">
+    	
+        <div class="nav-wrapper">
+        	<a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only">
+        		<i class="material-icons black-text sidebarIcon" style="font-size: 33px">menu</i>
+        	</a>
+            <div class="pt-md  pl-lg inline-block" style="height: 60px;">
+            	<img src="images/ibism-logo.png" style="width: 112px;">
+            </div>
+            <div class="right registerLogin_section">
+            	<a href="#" class="login mr-lg hide-on-small-only">Log In</a>
+                <a class="register-button button  mr-lg ml-lg pl-lg pr-lg pt-md pb-md pointer hide-on-small-only">Register</a>
+            </div>
+            <ul  class="right valign-wrapper hide-on-med-and-down relative" id="nav-desktop">
+                <li><a href="#video_container">Demo</a></li>
+                <li><a href="#">Product Features</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li class="dropdown_section">
+                	<a class="dropdown-button-desktop relative ml-md mr-md"  style="top: 1px; height: 40px" href="" data-activates="more_dropdown">More
+                	<i class="material-icons right relative">arrow_drop_down</i></a>
+               	</li>
+               	<ul id="more_dropdown" class="dropdown-content">
+					<li class=" mt-md"><a class="p-md pt-lg" href="#!">Integrations</a></li>
+					<li><a  class="p-md" href="#!">Apps</a></li>
+					<li><a  class="p-md" href="#!">Security</a></li>
+					<li><a class="p-md">Case Studies</a></li>
+				</ul>
+
+            </ul>
+			<ul id="nav-mobile" class="side-nav fixed hide-on-large-only fh auto_overflow" style="width: 300px; transform: translateX(0px);">
+                <li class="no-padding">
+				    <ul class="collapsible" data-collapsible="collapsible-accordion">
+		                <li class="setActive_bkg"><a href="#">Demo</a></li>
+		                <li class="setActive_bkg"><a href="#">Product Features</a></li>
+		                <li class="setActive_bkg"><a href="#">Solutions</a></li>
+		                <li class="setActive_bkg"><a href="#">Pricing</a></li>
+	                    <li class="bold">
+	                        <a class="collapsible-header  waves-effect waves-color is-active" style="padding-left: 30px">
+	                            <span>More</span>
+	                            <i class="material-icons right more_icon animate">keyboard_arrow_down</i>
+	                        </a>
+	                        <div class="collapsible-body" >
+					            <ul>
+					             	<li class="setActive_bkg"><a class="padding_extra" href="#!">Integrations</a></li>
+									<li class="setActive_bkg"><a  class="padding_extra" href="#!">Apps</a></li>
+									<li class="setActive_bkg"><a  class="padding_extra" href="#!">Security</a></li>
+									<li class="setActive_bkg"><a  class="padding_extra" href="#!">Case Studies</a></li>
+					            </ul>
+				            </div>
+	                    </li>
+	                   	<li class="setActive_bkg hide-on-med-and-up"><a href="#">Log In</a></li>
+	                   	<li class="setActive_bkg hide-on-med-and-up"><a href="#">Register</a></li>
+	                </ul>
+				</li>
+               
+			</ul>
+        </div>
+    </nav>
+    <div class="page-content fh  row nmb">
+    	<div id="video_container" class="h">
+    		<div class="video_contentContainer fw center col s12 m12 l12 fh valign-wrapper">
+    			<div class="col s12 m12 l12 videoBtnSection">
+	    			<div class="mt-lg mb-lg" style="font-size: 37px"><img src="images/ibism-logo.png" style="width: 112px;">
+	    			 - Your Company United</div>
+	    			<a class=" btn play_btn mt-lg pr-lg pl-lg mb-lg">
+	    				<i class="material-icons left mr" style="font-size: 28px">play_arrow</i>Play Video
+	    			</a></br>
+	    			<a class=" btn play_btn mt-lg pr-lg pl-xlg mb-lg sheduleDemoBtn">
+	    				Shedule a Demo
+	    			</a>
+	    			<!-- <div class="f-lg  mt-lg mb-lg">
+	    				<span class="card p-lg">Shedule a Demo</span>
+	    			</div> -->
+	    		</div>
+	    		<div class="EmailSection  card row m-auto h ">
+	    			<div class=" card-content left fw" style="color: #161d28">
+	    				<div class="col s12 m12 l12  f-xl bold valign-wrapper mb-lg">
+	    					<p class="changeFontSize">REGISTRATION OF</p> <img src="images/ibism-logo.png" class="ml-xl" style="width: 112px;">
+	    				</div>
+	    				<div class="col s12 m12 l12 valign-wrapper mt-lg mb-lg">
+	    					<div class="col s3 m3 l4 divider"></div>
+	    					<div class="col s6 m6 l5 f-sm bold relative" style=" top: -2px">Log in using social services</div>
+	    					<div class="col s3 m3 l4 divider"></div>
+	    				</div>
+	    				<div class="col s12 m12 l12 center mb-lg">
+	    					<img  src="images/facebook.png" class="relative pointer" style="width:56px ;height: 56px" >
+	    					<img  src="images/google.png"  class="relative ml mr-md pointer" style="width: 51px;height:51px;top:-1px">
+	    					<img  src="images/twiiter.png"  class="relative mr-md pointer" style="width:44px ;height:43px;top: -4px " >
+	    					<img  src="images/whatsapp.png"  class="relative ml pointer" style="width:43px ;height: 41px;top: -5px">
+	    				</div>
+	    				<div class="col s12 m12 l12 center  mb-lg">
+	    					<span class="f-sm bold">Use your e-mail or social network</span>
+	    				</div>
+	    				<div class="col s12 m12 l12">
+		    				<div class="m-auto emailArea" style="">
+			    				<input type="email" name="email" class="emailDemo  mt-lg p-md" placeholder="Enter Your Email ">
+			    				<div class="" style="max-width: 300px;">
+			    					<div class="f-sm bold">
+			    						<span>By registering you confirm that you accept the
+			    						 <a class="pointer">Terms of Service</a> and the <a class="pointer">Privacy Policy.</a></span>
+									</div>
+			    				</div>
+			    			</div>
+	    				</div>
+	    			</div>
+	    		</div>
+    		</div>
+    	</div>
+    	<div id="mainHeading" class="col s12 m12 1l2">
+    		<div class="" style="height: 200px; margin-top: 15%">
+    			<div class="col s12 m10 1l0 offset-l2 offset-m2 fh f-xl">
+    				<div class="col s12 m10 1l0 "><span>Workflow Design &nbsp;Staying Realtime Connected</span></div>
+    				<div class="col s12 m10 1l0 "><span>Ibism 360*&nbsp;/&nbsp;Watch Video</span></div>
+    				<div class="col s12 m12 l12 valign-wrapper mt-xlg" style="">
+	    				<div class="col s12 m4 l4 npl">
+	    					<input type="email" name="email" class="emailDemo  mt-lg p-md" placeholder="Enter Your Email ">
+	    				</div>
+	    				<div class="col s12 m5 l9" style="margin-left: 5%;">
+	    					<a href="" class="getStartedBtn pb-md f-md pt-lg pl-lg pr-lg">Get Started</a>
+	    				</div>
+	    			</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div id="solutionSection" style="margin-top: 5%;margin-bottom: 5%;">
+    		<div class="col s12 m12 1l2 f-lg">
+    			Solutions for scaling companies to enterprises
+    		</div>
+    	</div>
+		<div class="testimonialContainer left fw">
+		    <div class="row" style="margin-bottom: 5%;margin-top: 10%">
+		        <div class="col s6 m4 l4 np">
+		            <div class="testimonialBg1">
+		                <div class="testimonialWrapper">
+		                    <div class="testimonialCompanyLogo">
+		                        <img src="images/ibism-logo.png" style="width: 200px;">
+		                    </div>
+		                    <p class="npl npr pl-xl pr-xl white-text  testimonialtext m-auto">"KiSSFLOW has allowed us to streamline and dictate our processes to teams resulting in the removal of manual tracking and overall stronger efficiency."</p>
+		                    <div class="testimonialFooter">
+		                        <p class="white-text f-md m"><strong>Jessica Bailey</strong></p>
+		                        <p class="white-text f-md m">Randstad</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col s6 m4 l4 np">
+		            <div class="testimonialBg2">
+		                <div class="testimonialWrapper">
+		                    <div class="testimonialCompanyLogo">
+		                        <img src="images/ibism-logo.png" style="width: 200px;">
+		                    </div>
+		                    <p class="npl npr pl-xl pr-xl white-text  testimonialtext m-auto">"KiSSFLOW has allowed us to streamline and dictate our processes to teams resulting in the removal of manual tracking and overall stronger efficiency."</p>
+		                    <div class="testimonialFooter">
+		                        <p class="white-text f-md m"><strong>Jessica Bailey</strong></p>
+		                        <p class="white-text f-md m">Randstad</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col s6 m4 l4 np">
+		            <div class="testimonialBg3">
+		                <div class="testimonialWrapper">
+		                    <div class="testimonialCompanyLogo">
+		                        <img src="images/ibism-logo.png" style="width: 200px;">
+		                    </div>
+		                    <p class="npl npr pl-xl pr-xl white-text  testimonialtext m-auto">"KiSSFLOW has allowed us to streamline and dictate our processes to teams resulting in the removal of manual tracking and overall stronger efficiency."</p>
+		                    <div class="testimonialFooter">
+		                        <p class="white-text f-md m"><strong>Jessica Bailey</strong></p>
+		                        <p class="white-text f-md m">Randstad</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div id="blogSection" class="left fw h" style="margin-top: 5%;margin-bottom: 5%;">
+			<div class="blogHeader center f-xl mb-lg">BLOGS</div>
+			<div class="blogWrapper col s12 m12 1l2 mb-lg">
+				<div class="col s6 m6 l6 center" style="height: 350px;">
+					<div class="blogName col s12 m12 l12 f-md mt-lg mb-lg">Blog Name</div>
+					<div class="blogContent col s12 m12 l12 valign-wrapper" style="font-size: 15px; min-height: 200px;">
+						General Pizza Blogs
+
+							1. Serious Eats – Slice : Slice is the online resource for pizza lovers. The site features pizza places from all over the U.S. and also discusses things like the perfect mix of wet and dry ingredients to achieve the ideal dough consistency.
+							2. Pizza Radio : Yep, you read that correctly. Pizza Radio is the one podcast dedicated to discussing all things pizza. Listen to weekly interviews with pizza experts and get tips on creating the perfect pie at home.
+
+							3. Passion 4 Pizza Blog This site has a helpful side menu with links to pizzerias by geographic area, which means you can find a fabulous slice no matter where you are. It also goes behind-the-scenes with professionals so you can see the methods used to cook up the perfect pie.
+					</div>
+				</div>
+				<div class="col s6 m4 l4 offset-m1 offset-l1 blogImageFirst blogImage">
+					
+				</div>
+			</div>
+			<div class="blogWrapper col s12 m12 1l2 mt-lg">
+				<div class="col s6 m4 l4 offset-m1 offset-l1 blogImageFirst blogImage">
+					
+				</div>
+				<div class="col s6 m6 l6 center" style="height: 350px;">
+					<div class="blogName col s12 m12 l12 f-md mt-lg mb-lg">Blog Name</div>
+					<div class="blogContent col s12 m12 l12 valign-wrapper" style="font-size: 15px;min-height: 200px;">
+						General Pizza Blogs
+
+							1. Serious Eats – Slice : Slice is the online resource for pizza lovers. The site features pizza places from all over the U.S. and also discusses things like the perfect mix of wet and dry ingredients to achieve the ideal dough consistency.
+							2. Pizza Radio : Yep, you read that correctly. Pizza Radio is the one podcast dedicated to discussing all things pizza. Listen to weekly interviews with pizza experts and get tips on creating the perfect pie at home.
+
+							3. Passion 4 Pizza Blog This site has a helpful side menu with links to pizzerias by geographic area, which means you can find a fabulous slice no matter where you are. It also goes behind-the-scenes with professionals so you can see the methods used to cook up the perfect pie.
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <footer class="page-footer fw" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l3 m6 s12">
+					<span class="white-text context-menu f-md">Navigation Vertic</span>
+					<ul class="footerLink">
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 1</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 2</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 3</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 4</a></li>
+					</ul>
+				</div>
+				<div class="col l3 m6 s12">
+					<span class="white-text context-menu f-md">About Us</span>
+					<ul class="footerLink">
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 1</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 2</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 3</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 4</a></li>
+					</ul>
+				</div>
+				<div class="col l3 m6 s12">
+					<span class="white-text context-menu f-md">Work With Us</span>
+					<ul class="footerLink">
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 1</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 2</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 3</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 4</a></li>
+					</ul>
+				</div>
+				<div class="col l3 m6 s12">
+					<span class="white-text context-menu f-md">Intercom</span>
+					<ul class="footerLink">
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 1</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 2</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 3</a></li>
+					  <li><a class="grey-text text-lighten-3 " href="#!">Link 4</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+			© 2018 Copyright Text
+			<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+		</div>
+    </footer>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.dropdown-button-desktop,.dropdown-button-mob').dropdown({
+		      hover: true, // Activate on hover
+		      belowOrigin: true, // Displays dropdown below the button
+		      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+		      stopPropagation: false // Stops event propagation
+		    });
+		    $('.button-collapse').sideNav({
+				menuWidth: 300, // Default is 300
+				edge: 'left', // Choose the horizontal origin
+				closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+				draggable: true, // Choose whether you can drag to open on touch screens,
+				}
+			);
+			$('.collapsible').collapsible({
+				accordion: false,
+			});
+			$('.is-active').on('click',function(){
+				$('.more_icon').toggleClass('animate');
+			})
+			$('.setActive_bkg').on('click',function(){
+				$('.setActive_bkg').removeClass('done');
+				$(this).addClass('done');
+			})
+			$('.sheduleDemoBtn').on('click',function(){
+				$('.EmailSection').show();
+				$('.videoBtnSection').hide();
+			})
+			$(function(){
+			    var header = $('#header');
+			    $(window).scroll(function(){
+			        if($(window).scrollTop() <= 10){
+			        	header.css('box-shadow', 'none');
+			       		// header.css('box-shadow', '0px 0px ' + $(window).scrollTop() + 'px rgba(0, 0, 0, 0.2)'); 
+			        } else {
+			          header.css('box-shadow', '0px 0px 10px rgba(0, 0, 0, 0.2)'); 
+			        }
+			    });  
+			})
+		});
+	</script>
+</body>
+</html>
+
+
+
+

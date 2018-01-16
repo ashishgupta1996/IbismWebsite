@@ -1,0 +1,362 @@
+body
+{
+    font-size:12px;
+    padding-top:64px;
+}
+html,body
+{
+    height:100%;
+    width:100%;
+}
+/*Material icon import*/
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url("../fonts/material-icon/MaterialIcons-Regular.woff2") format('woff2'),
+       url("../fonts/material-icon/MaterialIcons-Regular.woff") format('woff'),
+       url("../fonts/material-icon/MaterialIcons-Regular.ttf") format('truetype');
+}
+.f-xsm{font-size:11px!important}
+.f{font-size:12px!important}
+.f-sm{font-size:13px!important;}
+.f-md1{font-size:17px!important;}
+.f-md{font-size:18px!important;}
+.f-lg{font-size:20px;}  
+.f-xl{font-size:25px;}
+.f-14{font-size: 14px;}
+.bold{font-weight: bold}
+.m-auto{margin:auto;}
+.r{
+    border-radius: 3px;
+    -webkit-border-radius :3px;
+    -moz-border-radius :3px;
+    -ms-border-radius :3px;
+}
+.nr{border-radius:0!important}
+.nbr{border:0!important}
+.nbrt{border-top:0!important}
+.nbrb{border-bottom:0!important}
+.ml{margin-left:5px !important;}
+.ml-md{margin-left:10px !important;}
+.ml-lg{margin-left:15px !important;}
+.ml-xl{margin-left:20px !important;}
+.mr{margin-right:5px !important;}
+.mr-md{margin-right:10px !important;}
+.mr-lg{margin-right:15px !important;}
+.mr-xl{margin-right:20px !important;}
+.mr-sm{margin-right:5px!important;}
+.mb{margin-bottom:5px!important}
+.mb-md{margin-bottom:10px!important;}
+.mb-lg{margin-bottom:15px !important;}
+.mb-xl{margin-bottom:20px !important;}
+.m{margin:5px !important;}
+.m-md{margin:10px !important}
+.m-lg{margin:15px !important}
+.m-xl{margin:20px !important}
+.relative{position:relative;}
+.absolute{position:absolute;}
+.auto_overflow{
+    overflow: auto;
+}
+.text-center
+{
+    text-align: center;
+}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.sidebar_items{line-height: 50px;}
+.sidebar_items .item_active img,.dimension
+{
+    width:35px;
+    height:35px!important;
+}
+.sidebar_items .item_active{
+    background-color: #F2F1EF;
+    padding-top: 15px;
+}
+._task,._people,._team,._report{padding-top:41px;padding-bottom:45px;background:#fff}
+.add_task
+{
+    bottom:75px!important 
+}
+.inline-block{display:inline-block!important;}
+.inline{display:inline!important;float:left}
+.name-data
+{
+    color: #fff;
+    font-size: 9px;
+    position: relative;
+    top: 4px;
+}
+.select_arrow{
+    vertical-align: 4px;
+    margin-left: 20px;
+}
+.pointer{cursor:pointer;}
+.p{padding:5px!important;}
+.p-md{padding:10px !important;}
+.p-lg{padding:15px !important;}
+.p-xl{padding:20px !important ;} 
+.pt{padding-top: 5px !important}
+.pt-md{padding-top: 10px!important}
+.pt-lg{padding-top: 15px !important}
+.pl{padding-left: 5px !important}
+.pl-md{padding-left:10px !important}
+.pl-lg{padding-left:15px !important}
+.pl-xl{padding-left:20px !important}
+.pl-xxl{padding-left:25px !important}
+.pr{padding-right: 5px !important}
+.pr-md{padding-right:10px !important}
+.pr-lg{padding-right:15px !important}
+.pr-xl{padding-right:20px !important}
+
+.nl{left:0!important}
+
+.mt{margin-top:5px;}
+.mt-md{margin-top:10px!important;}
+.mt-lg{margin-top:15px !important;}
+.mt-xlg{margin-top: 20px;}
+.npt{padding-top:0!important}
+.npb{padding-bottom:0!important}
+.pb{padding-bottom:5px!important}
+.pb-md{padding-bottom:10px!important}
+.pb-lg{padding-bottom:15px !important}
+
+.np{padding:0!important}
+.npr{padding-right:0!important}
+.npl{padding-left:0!important}
+
+.nm{margin:0!important}
+.nml{margin-left:0!important}
+.nmr{margin-right:0!important}
+.nmb{margin-bottom:0!important}
+.nmt{margin-top:0!important}
+.fw{width:100%}
+.fh{height:100%}
+.hh{height:50%}
+.nbs{
+    box-shadow: none;
+}
+#nav-desktop a,.registerLogin_section a {
+    color: #3badef;
+    font-size: 13.5px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+ul#nav-desktop li:not(.dropdown_section){
+    line-height: 1px;
+}
+#more_dropdown li{
+    text-align: center;
+}
+#nav-desktop  li a:hover ,.registerLogin_section .login:hover{
+    background: transparent;
+    color: #796eff;
+}
+#more_dropdown.dropdown-content{
+    box-shadow: rgba(36, 50, 66, 0.08) 0px 25px 30px 0px;
+    border-radius: 5px;
+}
+#more_dropdown.dropdown-content li:hover{
+    background: transparent;
+}
+#header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 64px;
+    line-height: 64px;
+}
+.shadow{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.h{
+    display: none;
+}
+#footer{
+    background: #161d28;
+    clear: both;
+   /* height: 280px;
+    margin-top: 280px;*/
+}
+#footer .footer-copyright{
+    background: #222a36;
+}
+.footerLink li a{
+    font-size: 14px;
+}
+.context-menu{
+    cursor: context-menu;
+}
+.footerLink li a:hover{
+    text-decoration: underline;
+}
+.footerLink li{
+    margin-top: 10px;
+}
+#video_container{
+   /* background-image: url(../images/blueClr.jpg);*/
+}
+.play_btn{
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #3badef;
+    transition: 700ms;
+    color: #3badef;
+    height: 45px;
+    line-height: 45px;
+}
+.play_btn:hover{
+     background-color: #3badef;
+    color: white !important;
+
+}
+#video_container .emailDemo,#mainHeading .emailDemo{
+    border: 2px solid #3badef;
+    border-radius: 5px;
+    height: 28px;
+}
+#video_container .emailDemo:focus,#mainHeading .emailDemo:focus{
+    border: 2px solid #3badef;
+    background: rgba(255,255,255,0.5);
+    color: black;
+    box-shadow: none;
+}
+#nav-mobile{
+    top: 64px;
+}
+.emailArea{
+    width: 60%;
+}
+#sidenav-overlay{
+    position: relative;
+}
+.page-content::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+    background-color: rgba(0,0,0,0);
+    -webkit-border-radius: 100px;
+}
+.more_icon{
+    transition: 300ms;
+}
+.padding_extra{
+    padding-left: 60px !important;
+}
+.more_icon.animate{
+    transform: rotate(-90deg);
+}
+.setActive_bkg.done{
+    background-color: rgba(0,0,0,0.05);
+}
+.register-button{
+    background-color: transparent;
+    border: 2px solid #3badef;
+    line-height: 28px;
+    border-radius: 5px;
+    transition: 300ms
+}
+.register-button:hover{
+    background-color: #3badef;
+    color: white !important;
+}
+.EmailSection{
+    width: 50%;
+    border-radius: 5px;
+}
+#more_dropdown{
+    width: 202px !important;
+    height: 210px;
+    position: absolute;
+    left: 339px !important;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+}
+.nav-wrapper .sidebarIcon{
+    line-height: 64px;
+    height: 64px;
+}
+#mainHeading .getStartedBtn{
+    color: white;
+    background: #039be5;
+    border: 2px solid #039be5;
+    border-radius: 5px;
+}
+#mainHeading .getStartedBtn:hover{
+    background: #048BFF;
+}
+.testimonialBg1 {
+    background: url(../images/ibism-logo.png) no-repeat;
+    background-size: cover;
+}
+.testimonialBg2 {
+    background: url(../images/dominospizz.jpg) no-repeat;
+    background-size: cover;
+}
+.testimonialBg3 {
+    background: url(../images/officeibism.jpg) no-repeat;
+    background-size: cover;
+}
+.blogImageFirst {
+    background: url(../images/tech.jpg) no-repeat;
+    background-size: cover;
+}
+.blogImage{
+    min-height: 350px !important;
+}
+.testimonialWrapper {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+    background: rgba(0,0,0,.65);
+}
+.testimonialCompanyLogo {
+    min-height: 120px;
+    position: relative;
+    line-height: 120px;
+}
+.testimonialFooter {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+.testimonialtext{
+    letter-spacing: 1px;
+    line-height: 26px;
+    width: 80%;
+    font-size: 14px;
+}
+#mainHeading .emailDemo{
+
+}
+@media only screen and (min-width: 601px) and (max-width: 1001px){
+    .emailArea{
+        width: 75%;
+    }
+    .EmailSection{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 601px){
+    .emailArea{
+        width: 85%;
+    }
+    .EmailSection{
+        width: 100%;
+    }
+    .EmailSection .card-content{
+       padding:5px;
+    }
+    .EmailSection .changeFontSize{
+        font-size: 13px;
+    }
+}
+
+/*.dropdown_section .dropdown-button:hover  #more_dropdown{
+    top: 55px;
+}*/
